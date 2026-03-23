@@ -24,8 +24,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
-  const logoUrl =
-    "https://www.klusdegroot.nl/.cm4all/iproc.php/klusspecialistdegroot-logo.png/scale_197_63/klusspecialistdegroot-logo.png";
+  const logoUrl = "/images/logo.png";
 
   return (
     <header className="sticky top-0 z-50 border-b-4 border-accent bg-navy shadow-lg">

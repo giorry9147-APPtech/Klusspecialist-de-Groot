@@ -17,8 +17,7 @@ const reasons = [
 ];
 
 export default function AboutPage() {
-  const andrePhoto =
-    "https://www.klusdegroot.nl/.cm4all/iproc.php/20150212_112430_resized.jpg/downsize_1280_0/20150212_112430_resized.jpg";
+  const andrePhoto = "/images/andre.jpg";
 
   return (
     <>

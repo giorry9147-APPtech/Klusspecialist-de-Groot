@@ -2,8 +2,7 @@ import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
-  const logoUrl =
-    "https://www.klusdegroot.nl/.cm4all/iproc.php/klusspecialistdegroot-logo.png/scale_197_63/klusspecialistdegroot-logo.png";
+  const logoUrl = "/images/logo.png";
 
   return (
     <footer className="bg-accent text-navy">

@@ -92,8 +92,7 @@ const steps = [
 /* ─── PAGE ──────────────────────────────────────────────────── */
 
 export default function HomePage() {
-  const oldHeroImage =
-    "https://www.klusdegroot.nl/.cm4all/iproc.php/Fotolia_55995621_X.jpg";
+  const oldHeroImage = "/images/hero.jpg";
 
   return (
     <>

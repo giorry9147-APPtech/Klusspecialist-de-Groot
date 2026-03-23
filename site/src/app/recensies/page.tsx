@@ -28,8 +28,7 @@ const reviews = [
 ];
 
 export default function ReviewsPage() {
-  const kitchenPhoto =
-    "https://www.klusdegroot.nl/.cm4all/iproc.php/IMG_2445.JPG/downsize_1280_0/IMG_2445.JPG";
+  const kitchenPhoto = "/images/project-keuken.jpg";
 
   return (
     <>
@@ -74,9 +73,9 @@ export default function ReviewsPage() {
               </p>
               <h2 className="mt-3 text-2xl font-bold text-navy">Keuken in maart 2014</h2>
               <blockquote className="mt-5 border-l-4 border-accent pl-4 text-gray-700 italic">
-                "Andre, bedankt voor compleet opnieuw aanleggen van mijn keuken.
+                &quot;Andre, bedankt voor compleet opnieuw aanleggen van mijn keuken.
                 De prachtige moderne witte keuken heb je mooi afgewerkt.
-                Nu kan ik er weer vele jaren tegenaan. Nogmaals dank voor het vakwerk!"
+                Nu kan ik er weer vele jaren tegenaan. Nogmaals dank voor het vakwerk!&quot;
               </blockquote>
             </div>
           </div>
